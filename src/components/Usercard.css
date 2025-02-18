@@ -1,0 +1,41 @@
+/* Usercard.css */
+
+
+.usercard {
+    display: flex;
+    background-color: #6d5f5f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    
+  }
+  
+  .usercard-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .usercard-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .usercard-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .usercard-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .usercard-details strong {
+    font-weight: 600;
+  }
+  
